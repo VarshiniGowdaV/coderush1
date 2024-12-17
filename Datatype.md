@@ -1,51 +1,23 @@
-# First Level Heading
-
-Paragraph.
-
-## Second Level Heading
-
-Paragraph.
-
-- bullet
-+ other bullet
-* another bullet
-    * child bullet
-
-1. ordered
-2. next ordered
-
-### Third Level Heading
-
-Some *italic* and **bold** text and `inline code`.
-
-An empty line starts a new paragraph.
-
-Use two spaces at the end  
-to force a line break.
-
-A horizontal ruler follows:
-
----
-
-Add links inline like [this link to the Qt homepage](https://www.qt.io),
-or with a reference like [this other link to the Qt homepage][1].
-
-    Add code blocks with
-    four spaces at the front.
-
-> A blockquote
-> starts with >
->
-> and has the same paragraph rules as normal text.
-
-First Level Heading in Alternate Style
-======================================
-
-Paragraph.
-
-Second Level Heading in Alternate Style
----------------------------------------
-
-Paragraph.
-
-[1]: https://www.qt.io
+# Datatypes
+## Primitive Datatypes
+- The Datatypes are:
+   1.int      :4 bytes
+   2.char     :1 byte
+   3.float    :4 bytes
+   4.double   :8 bytes
+   5.pointers :8 bytes
+   6.void*    :8 bytes
+   
+### Observations
+1. sizeof(void *) pointer is 8 bytes.
+2. sizeof(void) datatype is 1 byte .
+3. sizeof(int *) pointer is 8 bytes.
+4. sizeof(float *) pointer is 8 bytes.
+5. sizeof(char *) pointer is 8 bytes.
+6. sizeof(double *) pointer is 8 bytes.
+7. sizeof(int) datatype is 4 bytes.
+8. sizeof(char) datatype is 1 byte.
+9. sizeof(float) datatype is 4 bytes.
+10. sizeof(double) datatype is 8 bytes.
+11. sizeof(s)  constant student structure is 204 bytes
+   
