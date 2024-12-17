@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include "Datatype.h"
 
-int main()
-{
-    printf("Hello World!\n");
+int main() {
+    Datatype();
     return 0;
 }
